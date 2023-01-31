@@ -1,47 +1,33 @@
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* common styles and utilities */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+/*-------------------
+              common styles and utilities
+                --------------------------------- */
 body {
     font-family: 'Poppins',
         sans-serif;
     margin: 0%;
     justify-content: center;
-    margin-left: 210px;
-}
-
-
-
-/* top-banner style  */
-
-.top-container {
-    width: 1440px;
-    height: 677px;
-    top: 0px;
-    background-color: #2D25A0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-
-
-}
-
-.top-banner-info {
-
-    color: white;
-    font-weight: 700;
-    font-size: 40px;
-    margin-left: 156px;
-    margin-top: 120px;
-    padding: 0%;
-    font-size: 45px;
-
-
-
+    /* margin-left: 210px; */
 }
 
 h1 {
     margin: 0px;
+    font-size: 64px;
+    line-height: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
 }
 
 h3 {
@@ -58,8 +44,35 @@ h3 {
     background-color: #E02C6D;
     padding: 10px 24px;
     margin-top: 50px;
+}
+
+
+
+/*-----------------
+             top-banner style 
+             ------------------------ */
+
+.top-container {
+    width: 100%;
+    height: 677px;
+    top: 0px;
+    background-color: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    justify-items: center;
+
 
 }
+
+.top-banner-info {
+    color: white;
+    /* margin-left: 156px; */
+    margin-top: 120px;
+    padding: 0%;
+
+}
+
+
 
 .top-container .top-banner-png img {
     width: 556.01px;
@@ -71,9 +84,9 @@ h3 {
 
 .players {
     display: grid;
-    grid-template-columns: repeat(3, .25fr);
+    grid-template-columns: repeat(3, .50fr);
     justify-items: center;
-    margin-left: 110px;
+
 
 }
 
@@ -104,3 +117,62 @@ h3 {
 /* p {
     margin: 0%;
 } */
+
+/* 3rd section  */
+
+.match-container {
+    margin-top: 150px;
+}
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(2, .50fr);
+}
+
+.match-details {
+    width: 469px;
+    height: 309px;
+    margin-left: 160px;
+
+
+}
+
+.match .match-thumbnail img {
+    width: 567px;
+    height: 427px;
+    margin-left: 25px;
+}
+
+/* last  */
+
+.last-container {
+    display: grid;
+
+    margin-top: 80px;
+    justify-items: center;
+}
+
+.last-container img {
+    width: 483.87px;
+    height: 110px;
+    /* margin-left: 580px; */
+}
+
+.icons {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.icon-1 img {
+    width: 32px;
+    height: 32px;
+    margin-left: 14px;
+}
+
+footer {
+    width: 236px;
+    height: 31px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
